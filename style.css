@@ -48,4 +48,7 @@ input {
 .card-div {
     background-color: red;
     grid-row: 1/2;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
