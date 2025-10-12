@@ -67,3 +67,11 @@ input {
     background-color: gray;
     border: 3px solid black;
 }
+
+.card-display div {
+    padding: 5px;
+}
+
+.card-display div p {
+    padding: 7px;
+}
