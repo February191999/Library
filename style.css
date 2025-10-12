@@ -27,6 +27,11 @@ body {
     border: 3px solid black;
 }
 
+.card-header {
+    padding-bottom: 0;
+    padding-top: 3%;
+}
+
 .header {
     margin-top: 10%;
 }
@@ -54,7 +59,7 @@ input {
 }
 
 .card-display {
-    grid-row: 2/5;
+    grid-row: 2/15;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     display: grid;
     gap: 10px;
