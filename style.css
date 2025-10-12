@@ -55,5 +55,10 @@ input {
 
 .card-display {
     grid-row: 2/5;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    display: grid;
+    gap: 10px;
+    margin: 10px;
+    background-color: gray;
+    border: 3px solid black;
 }
